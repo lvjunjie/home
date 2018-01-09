@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul li{
+    padding: 0;
+    margin: 0;
+}
+#preface {
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+#preface>div{
+    background: url("../img/head1.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.preface-main {
+    background: rgba(23, 20, 20, 0.58);
+    width: 100%;
+    height: 100%;
+    padding: 20px 50px;
+    display: inline-flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 22px;
+    color: #FFF;
+    background: #00a78e;
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 10px;
+    min-width: 80px;
+}
+
+h4{
+    color: #C7C7C7;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+}
+
+#preface ul {
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+
+
+}
+#preface ul li {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+    display: flex;
+
+
+}
+#preface ul li div:first-child{
+    width: 80px;
+
+
+
+}
+#preface ul li div{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-progress li{
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.skill-progress .progress {
+    position: relative;
+    height: 8px;
+    border-radius: 8px;
+    /*background: #c7c7c7;*/
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+
+}
+
+.skill-progress .progress .percent-line{
+    height: 100%;
+    background: #517fa4;
+    padding: 0;
+    margin: 0;
+}
+
+.experience ul li {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.experience ul li div:first-child {
+    flex: 0 0 6.5rem;
+}
+
+.experience ul li label:nth-child(2) {
+    font-size: 0.8rem;
+    color: #c7c7c7;
+
+}
+
+.experience ul li i {
+    font-size: 01.1rem;
+    margin-right: 0.5rem;
+    color: #fff;
+}
+
+.contact-link i{
+    font-size: 1.5rem;
+}
